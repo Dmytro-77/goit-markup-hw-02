@@ -9,7 +9,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--second-title-color);
 
   color: var(--first-title-color);
 }
@@ -37,7 +37,7 @@ body {
 
 /*-- HEADER--*/
 .header {
-  background: #ffffff;
+  background: var(--second-title-color);
 }
 
 .header-logo {
@@ -149,12 +149,14 @@ body {
 .hero-button:focus {
   background-color: var(--accent-color);
   color: var(--first-btn-color);
+
 }
+
 
 /* --SCROLL-- */
 
 .scroll {
-  background-color: var(--first-btn-color);
+  background-color: var(--second-title-color);
 }
 
 .scroll-first-title {
@@ -181,6 +183,8 @@ body {
   color: var(--third-title-color);
 }
 
+/*--connection--  */
+
 .connection-title {
   font-weight: 700;
   font-size: 36px;
@@ -192,10 +196,11 @@ body {
 /* --TEAM-- */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-title-color);
 }
 
 .item-button {
+  font-family:inherit;
   cursor: pointer;
   width: 112px;
   height: 38px;
@@ -205,7 +210,7 @@ body {
 }
 .item-button:hover,
 .item-button:focus {
-  background-color: var(--first-btn-color);
+  background-color: var(--basic-blu-color);
 }
 
 .team-first-title {
@@ -240,8 +245,12 @@ body {
 
 .contacts-address {
   font-style: normal;
+      font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  
+    color: var(--second-title-color);
 }
-
 .footer-logo {
   
   font-weight: 700;
@@ -257,7 +266,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--basic-blu-color);
 }
 
 .footer-link {
