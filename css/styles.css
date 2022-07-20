@@ -137,6 +137,7 @@ body {
 }
 
 .hero-button {
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -159,19 +160,13 @@ body {
   background-color: var(--second-title-color);
 }
 
-.scroll-first-title {
-  font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;  
-  color: var(--first-title-color);
-}
 
 .scroll-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--first-title-color);
 }
 
