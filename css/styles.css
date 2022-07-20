@@ -227,7 +227,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+
   letter-spacing: 0.03em;
   color: var(--first-title-color);
 }
@@ -235,7 +235,7 @@ body {
 .team-pre-title {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+
   letter-spacing: 0.03em;
   color: var(--third-title-color);
 }
@@ -247,7 +247,7 @@ body {
   color: var(--first-title-color);
 }
 
-.team-pre-title-porto {
+.team-pre-porto {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
